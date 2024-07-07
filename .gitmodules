@@ -1,0 +1,9 @@
+[submodule "DigitalKawkaz"]
+	path = DigitalKawkaz
+	url = https://github.com/Inna949Festchuk/DigitalKawkaz
+[submodule "chat_ai"]
+	path = chat_ai
+	url = https://github.com/Aspir01/chat_ai
+[submodule "llm-rag"]
+	path = llm-rag
+	url = https://github.com/9i5BCrUcNX5NmT/llm-rag
