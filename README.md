@@ -45,9 +45,10 @@ docker run -p 6333:6333 -p 6334:6334 -d --restart always -v ~/qdrant_storage:/qd
 ## Комманды для запуска
 ### Бекенд
 ```bash
-git clone https://github.com/9i5BCrUcNX5NmT/llm-rag
-cd llm-rag
+git clone https://github.com/9i5BCrUcNX5NmT/Hackaton3
+cd Hackaton3
 git submodule update --init
+cd llm-rag
 poetry shell
 poetry install
 mkdir data
@@ -77,8 +78,3 @@ bun run start
 ```bash
 bun run build
 ```
-
-## TODO
-- общие переменные +
-- rest api для загрузки файлов -
-- полная развёртка в docker -
